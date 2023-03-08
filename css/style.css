@@ -19,7 +19,7 @@ body {
 .home_page {
     height: 600px;
     color: white;
-
+    margin-bottom: 200px;
 }
 
 .home_page_bg {
@@ -38,28 +38,77 @@ body {
     top: 10%;
     left: 25%;
     z-index: 2;
+    text-align: center;
 }
 
 .home_page_text h1 {
     font-size: 65px;
-    text-align: center;
 }
 
 .home_page_text p {
-    padding: 0 160px;
-    text-align: center;
+
     font-size: 18px;
     margin-bottom: 50px;
 }
 
-.home_page_text a {
+.button {
     text-decoration: none;
-    position: relative;
-    left: 45%;
     font-size: 20px;
     font-weight: 600;
     color: white;
     background-color: #FF5959;
     padding: 20px;
     border-radius: 10px;
+}
+
+
+/*------------------------
+      Donate Today 
+------------------------*/
+.donate_today {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.donate_today h2 {
+    font-size: 45px;
+}
+
+.donate_today p {
+    font-size: 18px;
+}
+
+.donation_amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.donation_amount p {
+    height: 120px;
+    width: 135px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    line-height: 120px;
+    margin: 15px;
+    font-weight: bold;
+    color: #707070;
+}
+
+#colored_amount {
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+.other_amount p {
+    color: #707070;
+}
+
+hr {
+    margin-bottom: 30px;
 }
